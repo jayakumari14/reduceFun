@@ -28,5 +28,15 @@
     optLanguage("typescript");
 
     // edit values
+
+    const secondLang = document.querySelector("li:nth-child(2)");
+    // secondLang.innerHTML = "mojo";
+    const newLi = document.createElement("li");
+    newLi.textContent = "Mongo";
+    secondLang.replaceWith(newLi);
+
+    // remove values
+    const lastLang = document.querySelector("li:last-child");
+    lastLang.remove();
   </script>
 </html>
