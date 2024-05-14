@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #60a5fa;
+  margin: 20px;
+}
+
+.spanBox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+span {
+  border: 1px solid;
+  padding: 40px;
+  margin: 5px;
+}
